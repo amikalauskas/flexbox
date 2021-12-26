@@ -1,0 +1,104 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: verdana;
+
+}
+html {
+  background: #3cb372;
+}
+
+
+.box1, .box2{
+margin-bottom: 25px;
+}
+img{
+  width: 100%;
+}
+.box1{
+  width: 100%;
+  background: white;
+}
+.box1 .text{
+  padding: 25px;
+}
+.box1 p {
+  padding-top: 10px;
+}
+
+
+.box2 {
+  width: 100%;
+  background: white;
+}
+.box2 .text{
+  padding: 25px;
+}
+.box2 p {
+  padding-top: 10px;
+}
+.bottom{
+display: flex;
+justify-content: space-between;
+}
+.container1{
+  width: 65%;
+  padding-right: 25px;
+
+}
+
+.box3 {
+    background: white;
+    width: 100%;
+    margin-bottom: 25px;
+}
+.box3 img {
+  width: 100%x;
+}
+.box3 .text{
+  padding: 25px;
+}
+.box3 p {
+  padding-top: 10px;
+}
+.bottom2{
+display: flex;
+justify-content: space-between;
+padding-top: 65px;
+}
+.box4 {
+    background: white;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.box4 .text{
+  padding: 25px;
+}
+.box4 p {
+  padding-top: 10px;
+}
+
+.box3, .box4 {
+
+}
+.container2{
+  width: 35%;
+}
+.page{
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media (max-width: 600px) {
+  .page{flex-direction: column;}
+  .container1, .container2 {
+    width: 100%;
+    padding: 0 25px;
+  }
+
+}
